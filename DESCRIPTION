@@ -1,12 +1,19 @@
 Package: osmnxr
 Title: Download, Model and Analyze 'OpenStreetMap' Street Networks
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
-    person("Andre", "Leite", email = "leite@castlab.org", role = c("aut", "cre")),
-    person("Marcos", "Wasilew", email = "marcos.wasilew@gmail.com", role = "aut"),
-    person("Hugo", "Vasconcelos", email = "hugo.vasconcelos@ufpe.br", role = "aut"),
-    person("Carlos", "Amorin", email = "carlos.agaf@ufpe.br", role = "aut"),
-    person("Diogo", "Bezerra", email = "diogo.bezerra@ufpe.br", role = "aut"),
+    person("André", "Leite", email = "leite@castlab.org", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4718-9766")),
+    person("Marcos", "Wasiliew", email = "marcos.wasiliew@gmail.com", role = "aut",
+           comment = c(ORCID = "0009-0004-4694-3159")),
+    person("Hugo", "Vasconcelos", email = "hugo.vasconcelos@ufpe.br", role = "aut",
+           comment = c(ORCID = "0000-0001-6249-0920")),
+    person("Carlos", "Amorim", email = "carlos.agaf@ufpe.br", role = "aut",
+           comment = c(ORCID = "0000-0001-6315-8305")),
+    person("Diogo", "Bezerra", email = "diogo.bezerra@ufpe.br", role = "aut",
+           comment = c(ORCID = "0000-0002-1216-8674")),
+    person("Júlia", "Nascimento Barreto", email = "juliabarreto@gd.seplag.pe.gov.br", role = "aut",
+           comment = c(ORCID = "0009-0004-2851-7770")),
     person("StrategicProjects", role = c("cph", "fnd")),
     person("The extendr authors", role = "cph",
            comment = "Bundled Rust crates extendr-api, extendr-ffi, extendr-macros"),
@@ -45,12 +52,14 @@ Config/testthat/edition: 3
 VignetteBuilder: knitr
 Config/rextendr/version: 0.5.0
 NeedsCompilation: yes
-Packaged: 2026-06-28 17:57:25 UTC; leite
-Author: Andre Leite [aut, cre],
-  Marcos Wasilew [aut],
-  Hugo Vasconcelos [aut],
-  Carlos Amorin [aut],
-  Diogo Bezerra [aut],
+Packaged: 2026-10-19 21:18:56 UTC; leite
+Author: André Leite [aut, cre] (ORCID: <https://orcid.org/0000-0002-4718-9766>),
+  Marcos Wasiliew [aut] (ORCID: <https://orcid.org/0009-0004-4694-3159>),
+  Hugo Vasconcelos [aut] (ORCID: <https://orcid.org/0000-0001-6249-0920>),
+  Carlos Amorim [aut] (ORCID: <https://orcid.org/0000-0001-6315-8305>),
+  Diogo Bezerra [aut] (ORCID: <https://orcid.org/0000-0002-1216-8674>),
+  Júlia Nascimento Barreto [aut] (ORCID:
+    <https://orcid.org/0009-0004-2851-7770>),
   StrategicProjects [cph, fnd],
   The extendr authors [cph] (Bundled Rust crates extendr-api,
     extendr-ffi, extendr-macros),
@@ -61,6 +70,6 @@ Author: Andre Leite [aut, cre],
   Aleksey Kladov [cph] (Bundled Rust crate once_cell),
   Unicode, Inc. [cph] (Bundled Rust crate unicode-ident (Unicode-3.0 data
     tables))
-Maintainer: Andre Leite <leite@castlab.org>
+Maintainer: André Leite <leite@castlab.org>
 Repository: CRAN
-Date/Publication: 2026-07-05 20:30:02 UTC
+Date/Publication: 2026-10-19 21:50:02 UTC

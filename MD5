@@ -1,7 +1,7 @@
-1801ca89363b45f9ce3a9fc1693ef72c *DESCRIPTION
-956724f039487ca4423c11bf458adda9 *LICENSE
-6b85d99377c7e9a7fc390c5b4caafc84 *NAMESPACE
-5dd921529cb5bdda90cdd9ccabd4b183 *NEWS.md
+be3448401300a14ac653b5329793e841 *DESCRIPTION
+46826e46414378eb5133b5735ded0ef1 *LICENSE
+4e3398652bea230d35e796e99a7b827a *NAMESPACE
+de1adf7998b4e961883f96c4005db451 *NEWS.md
 8a485dcb701c23ce9dac8fc8dd2e54b8 *R/download.R
 71c4f043a27e249e47d67ad2531300c8 *R/example.R
 9101926d0c1087bb7b1c2af347dad760 *R/extendr-wrappers.R
@@ -11,7 +11,7 @@ dffacdb52a57b7002ebfb56d03a3fa59 *R/interop.R
 9d6849b6a718044f979be85e693ada2d *R/io.R
 70aa2b8927d89c90c76150f6048e3ded *R/isochrone.R
 c8dee4b80b642112d1aa1b554d998ea8 *R/metrics.R
-46dad4fc5f9991716411fba2fde4ca3b *R/osm_graph.R
+415c3c9666a9ced1109eb080ac63ad44 *R/osm_graph.R
 8e74654fbd0fe83e63f18e78fc4f8712 *R/osmnxr-package.R
 5704c3227ab04da79ac8af2d91ab9c13 *R/overpass.R
 39401d355da268ffb4ba587d9198d818 *R/routing.R
@@ -20,7 +20,7 @@ c8dee4b80b642112d1aa1b554d998ea8 *R/metrics.R
 38b1dcaa5d947fa97056c613f3e1f1b6 *R/speeds.R
 c45b3844f5927c0ef568a28a4548b735 *R/utils.R
 af4e23a41469e6b69ae8f937fe75a5cf *R/zzz.R
-5b992d11e6e93d19434272e28840a3d6 *README.md
+bf7db028bba2b5b10ba8fd75cb849e6f *README.md
 12522d84dddaf79b2464a09e6250f35a *build/vignette.rds
 df665c330920d29973e9723a009da3f1 *cleanup
 1ccd53fb149fad14e8715a24cc398251 *cleanup.win
@@ -62,7 +62,7 @@ e4d96146b4ddac9e95c904bf62dd9296 *inst/doc/urban-metrics.html
 124878cf938b7cab327d1adb2a9176ac *man/figures/logo.svg
 46d22e59a7107770beda145ac2173ec9 *man/is_osm_graph.Rd
 cbe15d32c3311bd967d757790bc6d569 *man/new_osm_graph.Rd
-85058e29cd6b78a5ac4f5b9005c31112 *man/osmnxr-package.Rd
+29412deb3672a7c8cce7a4101d57de60 *man/osmnxr-package.Rd
 9c0abc3834021016db45712859d0939c *man/ox_add_edge_speeds.Rd
 adcac1ecdf973988ff37d77439599559 *man/ox_add_edge_travel_times.Rd
 d293bc9a0d97ae805797eb397cc78066 *man/ox_as_dodgr.Rd
@@ -100,6 +100,7 @@ da51a340433f8906ebf5153c3cf59adb *man/ox_plot_figure_ground.Rd
 0c61ab4b855af449863e99cfb4b471f0 *man/ox_simplify.Rd
 874b67aca6e40d9c80a848dfb64f0091 *man/ox_to_geojson.Rd
 9cbdd21385df874f9ac28a027132f4be *man/ox_to_maplibre.Rd
+95434ed981d253e811e1411e092b7627 *man/ox_union.Rd
 cee734961071f8ac3f37b9d00de546db *man/plot.osm_graph.Rd
 2a021ab348dfcd326b86c4a6a6f14350 *man/rs_basic_stats.Rd
 0470f5371c976b5802ab0debf3972860 *man/rs_bearings.Rd
@@ -138,6 +139,7 @@ bd559817d52e4d65ac5c9daa4ed27f09 *tests/testthat/test-m6-features-plot.R
 444b1187bd804a299a1cb59f68842ccd *tests/testthat/test-real-data.R
 f7db45f4060e0b9017c97f4f64cc0b36 *tests/testthat/test-settings.R
 8c1865dee137c9fa4a4868345f9b3224 *tests/testthat/test-simplify.R
+e64cd0cfc21129b003eec655d900bc7a *tests/testthat/test-union.R
 c12f29979163c656f55be4c83943594c *tools/config.R
 064e5e4e065fe2601c288550d112309d *tools/msrv.R
 daa7657d877967abe9135cdfc0641f34 *vignettes/accessibility.Rmd
